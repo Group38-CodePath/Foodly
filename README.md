@@ -11,12 +11,12 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Get randomized suggestions for lunch/dinner menu based on the user’s preference]
+Get randomized suggestions for lunch/dinner menu based on the user’s preference
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category:**Food, productivity, and health
+- **Mobile:** This app is primarily developed for android phones. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
 - **Story:**
 - **Market:**
 - **Habit:**
