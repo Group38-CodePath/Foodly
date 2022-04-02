@@ -15,12 +15,12 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**Food, productivity, and health
+- **Category:** Food, productivity, and health
 - **Mobile:** This app is primarily developed for android phones. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Story:** Allows users to answer the question "What food do I eat?"
+- **Market:** Everyone
+- **Habit:** This app will be used when doesn't know what to eat.
+- **Scope:** First we are oing to get food recipes then we are going to setup nofications to get reminders.
 
 ## Product Spec
 
@@ -28,15 +28,17 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 **Required Must-have Stories**
 
-* [Push Notifications for daily reminders]
-* [Food recipes]
-* [User settings]
-* [Login]
-* [Persistance]
+* Push Notifications for daily reminders
+* Food recipes
+* User settings
+* Login
+* SignUp
+* SignOut
+* Persistance
 
 **Optional Nice-to-have Stories**
 
-* [ML for food reccomendations]
+* ML for food reccomendations
 
 
 ### 2. Screen Archetypes
