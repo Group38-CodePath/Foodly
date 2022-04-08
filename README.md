@@ -79,7 +79,29 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+Data Models:
+API 
+Primary ID → Recipe ID → Type: Integer
+Recipe Web URL →  Type: String
+Recipe Photo URL → Type: String
+Recipe Title → Type: String
+Liked Recipe → Type: Image?
+IngredientString → Type: String
+recipeDescription → Type: Intent
+
+Network Requests: Login Screen
+Parse Server.
+Login/Sign-Up: Post, Create, Update
+
+Home Screen and Intent
+Recipe Page and Intent: API Network Call
+
+Favorite:
+No API Network Call but database
+
+Profile Page:
+Parse Server.
+
 ### Models
 []
 ### Networking
