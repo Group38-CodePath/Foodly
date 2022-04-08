@@ -80,7 +80,7 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 ## Schema 
 Data Models:
-API 
+API: https://spoonacular.com/food-api/docs
 Primary ID → Recipe ID → Type: Integer
 Recipe Web URL →  Type: String
 Recipe Photo URL → Type: String
