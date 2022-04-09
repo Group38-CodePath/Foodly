@@ -28,13 +28,15 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 **Required Must-have Stories**
 
-* Push Notifications for daily reminders
+* Favorite food recipes
 * Food recipes
+* Food recipe description
 * User settings
 * Login
 * SignUp
 * SignOut
 * Persistance
+* Profile screen
 
 **Optional Nice-to-have Stories**
 
@@ -42,33 +44,37 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 * Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
 * Allow users to post recipes
 * ML library for text recognition
+* Push Notifications for daily reminders
 
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-
+* Login/SignUp Screen
+   * Sign up
+   * Log In
+   * Persistence
+* Stream Screen
+   * Food recipes
+* Details Food Recipe Screen
+   * Food description
+* Favorite Screen
+   * Food recipes
+* Profile Screen
+  
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Feed
+* Favorite Feed
+* Profile Feed
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login/SignUp Screen
+   * Stream/home Screen
+* Home/Stream Screen
+   * Details Screen
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
