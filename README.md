@@ -78,7 +78,9 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="WireFrameOne" width=600>
+<img src="WireFrameTwo" width=600>
+<img src="WireFrameThree" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
