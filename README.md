@@ -90,6 +90,8 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+
+### Models
 Data Models:
 API: https://spoonacular.com/food-api/docs
 Primary ID → Recipe ID → Type: Integer
@@ -100,6 +102,7 @@ Liked Recipe → Type: Image?
 IngredientString → Type: String
 recipeDescription → Type: Intent
 
+### Networking
 Network Requests: Login Screen
 Parse Server.
 Login/Sign-Up: Post, Create, Update
@@ -112,10 +115,5 @@ No API Network Call but database
 
 Profile Page:
 Parse Server.
-
-### Models
-[]
-### Networking
-- [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [base url: https://api2.bigoven.com/recipes]
+- [base url: https://api.spoonacular.com/recipes]
