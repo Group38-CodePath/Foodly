@@ -75,6 +75,12 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
    * Stream/home Screen
 * Home/Stream Screen
    * Details Screen
+ * Favorite Screen
+   * Details Screen
+ * Profile Screen
+   * None
+ * Details Screen
+   * None 
 
 ## Wireframes
 <img src="WireFrameOne.jpg" width=600>
