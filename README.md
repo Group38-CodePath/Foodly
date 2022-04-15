@@ -27,16 +27,15 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* Favorite food recipes
-* Food recipes
-* Food recipe description
-* User settings
-* Login
-* SignUp
-* SignOut
-* Persistance
-* Profile screen
+- [ ] Favorite food recipes
+- [ ] Food recipes
+- [ ] Food recipe description
+- [ ] User settings
+- [ ] Login
+- [ ] SignUp
+- [ ] SignOut
+- [ ] Persistance
+- [ ] Profile screen
 
 **Optional Nice-to-have Stories**
 
