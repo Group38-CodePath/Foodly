@@ -31,8 +31,8 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 - [ ] Food recipes
 - [ ] Food recipe description
 - [ ] User settings
-- [ ] Login
-- [ ] SignUp
+- [x] Login
+- [x] SignUp
 - [ ] SignOut
 - [ ] Persistance
 - [ ] Profile screen
