@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Foodly</string>
+    <string name="back4app_client_key">49IItObrGEKbyQIxo17OALHiwnZzUxh2iH6j6Cm8
+</string>
+    <string name = "back4app_app_id">TDydfPgIuzmsVQdOItX0Ih2z7tBazktwYUCzprfz
+</string>
+    <string name = "back4app_server_url">https://parseapi.back4app.com/</string>
 </resources>
