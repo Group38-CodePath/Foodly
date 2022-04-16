@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/login_shape.xml" value="0.291" />
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.33" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/menu/menu_top_navigation.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/yunis/Downloads/Foodly/app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
