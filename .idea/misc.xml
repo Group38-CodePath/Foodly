@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/favorit_selector.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/home_selector.xml" value="0.1365" />
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/login_shape.xml" value="0.291" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/profile_selector.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/ufi_heart_icon.xml" value="0.1365" />
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.33" />
