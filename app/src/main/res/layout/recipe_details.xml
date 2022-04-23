@@ -21,6 +21,5 @@
         app:layout_constraintLeft_toLeftOf="@id/tvFood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="yay the image has been clicked"
         tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
