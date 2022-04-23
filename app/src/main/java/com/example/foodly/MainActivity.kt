@@ -2,7 +2,6 @@ package com.example.foodly
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -35,6 +34,12 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show()
                 }
             }
+            if (fragmentToShow != null) {
+                fragmentManager.beginTransaction().replace(R.id.flContainer, fragmentToShow).commit()
+            }
         }
+        // Set default selection
+        findViewById<BottomNavigationView>(R.id.bottom_navigation).selectedItemId = R.id.action_home
+
     }
 }
