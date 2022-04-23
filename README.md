@@ -33,9 +33,12 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 - [ ] User settings
 - [x] Login
 - [x] SignUp
-- [ ] SignOut
+- [x] SignOut
 - [ ] Persistance
 - [ ] Profile screen
+- [x] Home Fragment
+- [x] Favorite Fragment
+- [x] Profile Fragment
 
 **Optional Nice-to-have Stories**
 
