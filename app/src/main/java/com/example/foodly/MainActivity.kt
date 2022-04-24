@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val fragmentManager: FragmentManager = supportFragmentManager
-        findViewById<BottomNavigationView>(R.id.bottom_navigation).setOnItemReselectedListener { item ->
+        findViewById<BottomNavigationView>(R.id.bottom_navigation).setOnItemSelectedListener { item ->
             var fragmentToShow: Fragment? = null
 
             when (item.itemId) {
@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             if (fragmentToShow != null) {
                 fragmentManager.beginTransaction().replace(R.id.flContainer, fragmentToShow).commit()
             }
+            true
         }
         // Set default selection
         findViewById<BottomNavigationView>(R.id.bottom_navigation).selectedItemId = R.id.action_home
