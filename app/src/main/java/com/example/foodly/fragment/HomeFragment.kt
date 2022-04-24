@@ -12,19 +12,20 @@ import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import com.example.foodly.Post
-import com.example.foodly.R
 import com.example.foodly.RecipeAdapter
+import com.example.foodly.databinding.FragmentHomeBinding
 import com.example.foodly.model.Meal
 import okhttp3.Headers
 import org.json.JSONException
 
 
 private const val TAG = "HomeFragment"
-
 class HomeFragment : Fragment() {
+
     lateinit var rvRecipeHome: RecyclerView
-    lateinit var searchView: SearchView
     private val meals = mutableListOf<Meal>()
+    private var _binding: FragmentHomeBinding? = null
+    private val binding get() = _binding!!
 
     var allPosts: MutableList<Post> = mutableListOf()
     override fun onCreateView(
@@ -32,21 +33,21 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val recipeAdapter = RecipeAdapter(requireContext(),meals)
-        rvRecipeHome = view.findViewById(R.id.rvRecipeHome)
+        rvRecipeHome = binding.rvRecipeHome
 
         rvRecipeHome.adapter = recipeAdapter
 
         rvRecipeHome.layoutManager = LinearLayoutManager(requireContext())
 
-        searchView = view.findViewById(R.id.searchView)
 
-        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+        binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
 
             override fun onQueryTextSubmit( query: String): Boolean {
 
