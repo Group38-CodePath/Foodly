@@ -3,6 +3,7 @@ package com.example.foodly
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.foodly.adapters.MEAL_EXTRA
 import com.example.foodly.databinding.ActivityRecipeDetailsBinding
 import com.example.foodly.model.Meal
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
