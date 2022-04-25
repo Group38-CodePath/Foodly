@@ -7,12 +7,12 @@ import com.parse.ParseUser
 @ParseClassName("RecipeFavorites")
 class RecipeFavorites : ParseObject() {
 
-    fun setRecipeId(mealId: Int?) {
+    fun setRecipeId(mealId: String?) {
         put(KEY_MEAL_ID, mealId!!)
     }
 
-    fun getRecipeId(): Int {
-        return getInt(KEY_MEAL_ID)
+    fun getRecipeId(): String? {
+        return getString(KEY_MEAL_ID)
     }
 
     fun getImageUrl(): String? {
