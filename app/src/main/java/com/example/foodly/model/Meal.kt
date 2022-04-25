@@ -35,7 +35,6 @@ data class Meal(
 //    val strIngredient20: Any,
       val strInstructions: String,
       val strMeal: String,
-//    val strMealThumb: String,
       val strMeasure1: String,
       val strMeasure2: String,
       val strMeasure3: String,
