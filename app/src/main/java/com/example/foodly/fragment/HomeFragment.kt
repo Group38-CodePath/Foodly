@@ -11,8 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
-import com.example.foodly.Post
-import com.example.foodly.RecipeAdapter
+import com.example.foodly.adapters.RecipeAdapter
 import com.example.foodly.databinding.FragmentHomeBinding
 import com.example.foodly.model.Meal
 import okhttp3.Headers
@@ -27,7 +26,6 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
-    var allPosts: MutableList<Post> = mutableListOf()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
