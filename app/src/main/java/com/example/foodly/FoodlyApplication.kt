@@ -9,7 +9,7 @@ class FoodlyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        ParseObject.registerSubclass(Post::class.java)
+        ParseObject.registerSubclass(RecipeFavorites::class.java)
 
         Parse.initialize(
             Parse.Configuration.Builder(this)
