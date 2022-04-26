@@ -27,26 +27,26 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-- [ ] Favorite food recipes
-- [ ] Food recipes
-- [ ] Food recipe description
-- [ ] User settings
+- [X] Favorite food recipes
+- [X] Food recipes
+- [X] Food recipe description
+- [X] User settings
 - [x] Login
 - [x] SignUp
 - [x] SignOut
-- [ ] Persistance
-- [ ] Profile screen
+- [X] Persistance
+- [X] Profile screen
 - [x] Home Fragment
 - [x] Favorite Fragment
 - [x] Profile Fragment
 
 **Optional Nice-to-have Stories**
 
-* ML for food reccomendations
-* Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
-* Allow users to post recipes
-* ML library for text recognition
-* Push Notifications for daily reminders
+- [] ML for food reccomendations
+- [] Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
+- [] Allow users to post recipes
+- [] ML library for text recognition
+- [] Push Notifications for daily reminders
 
 
 ### 2. Screen Archetypes
