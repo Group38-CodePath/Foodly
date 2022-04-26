@@ -42,11 +42,11 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 **Optional Nice-to-have Stories**
 
-- [] ML for food reccomendations
-- [] Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
-- [] Allow users to post recipes
-- [] ML library for text recognition
-- [] Push Notifications for daily reminders
+- [ ] ML for food reccomendations
+- [ ] Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
+- [ ] Allow users to post recipes
+- [ ] ML library for text recognition
+- [ ] Push Notifications for daily reminders
 
 
 ### 2. Screen Archetypes
