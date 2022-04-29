@@ -2,19 +2,18 @@ package com.example.foodly.fragment
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.fragment.app.Fragment
 import com.example.foodly.LoginActivity
+import com.example.foodly.MainActivity
 import com.example.foodly.R
-import com.example.foodly.RecipeFavorites
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.button.MaterialButtonToggleGroup
-import com.parse.ParseQuery
 import com.parse.ParseUser
 
 
@@ -42,6 +41,7 @@ class ProfileFragment : Fragment() {
             logoutUser()
         }
 
+        var bottomNavigationView: BottomNavigationView = requireActivity().findViewById(R.id.bottom_navigation)
 
         val username = view.findViewById<TextView>(R.id.profile_username)
         username.setText(ParseUser.getCurrentUser()?.username)
@@ -58,6 +58,7 @@ class ProfileFragment : Fragment() {
                         else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
                     }
                     AppCompatDelegate.setDefaultNightMode(theme)
+                    bottomNavigationView.setSelectedItemId(R.id.action_home)
 
                 }
             }
