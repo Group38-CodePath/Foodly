@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.SearchView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -76,6 +77,7 @@ class HomeFragment : Fragment() {
 
                         } catch(e: JSONException){
                             Log.e(TAG,"Encountered exception $e")
+                            Toast.makeText(requireContext(), "No meals found", Toast.LENGTH_SHORT).show()
                         }
                     }
                 })

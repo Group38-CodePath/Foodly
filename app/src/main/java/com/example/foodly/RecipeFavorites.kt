@@ -1,5 +1,6 @@
 package com.example.foodly
 
+import com.example.foodly.model.Meal
 import com.parse.ParseClassName
 import com.parse.ParseObject
 import com.parse.ParseUser
@@ -39,11 +40,19 @@ class RecipeFavorites : ParseObject() {
         put(KEY_USER, user)
     }
 
+    fun setMeal(meal: Meal) {
+        KEY_MEAL = meal
+    }
+
+    fun getMeal(): Meal {
+        return KEY_MEAL
+    }
 
     companion object {
         const val KEY_USER  = "userId"
         const val KEY_IMAGE_URL = "imageUrl"
         const val KEY_TITLE = "title"
         const val KEY_MEAL_ID = "mealId"
+        lateinit var KEY_MEAL: Meal
     }
 }

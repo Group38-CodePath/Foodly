@@ -1,4 +1,5 @@
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -6,12 +7,16 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.foodly.R
+import com.example.foodly.RecipeDetailsActivity
 import com.example.foodly.RecipeFavorites
+import com.example.foodly.adapters.MEAL_EXTRA
 import com.example.foodly.adapters.TAG
+import com.example.foodly.model.Meal
 import com.parse.ParseObject
 import com.parse.ParseQuery
 
@@ -22,7 +27,7 @@ class FavoriteRecipeAdapter(val context: Context, val meals:MutableList<RecipeFa
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val post = meals.get(position)
+        val post = meals[position]
         holder.submitFavoriteButton.setOnClickListener {
             val query = ParseQuery.getQuery<RecipeFavorites>("RecipeFavorites")
             //query.whereEqualTo(KEY_USER, parseRecipe.getUser())
@@ -67,8 +72,8 @@ class FavoriteRecipeAdapter(val context: Context, val meals:MutableList<RecipeFa
         notifyDataSetChanged()
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
+        View.OnClickListener {
         val mealName: TextView
 
         val mealImage: ImageView
@@ -77,11 +82,9 @@ class FavoriteRecipeAdapter(val context: Context, val meals:MutableList<RecipeFa
 
         init {
             mealName = itemView.findViewById(R.id.tvFood)
-
             mealImage = itemView.findViewById(R.id.ivFood)
-
             submitFavoriteButton = itemView.findViewById(R.id.checkBox)
-
+            mealImage.setOnClickListener(this)
         }
 
         fun bind(meal:RecipeFavorites) {
@@ -91,6 +94,19 @@ class FavoriteRecipeAdapter(val context: Context, val meals:MutableList<RecipeFa
                 .apply(RequestOptions().override(600, 600))
                 .into(mealImage)
             submitFavoriteButton.isChecked = true
+        }
+
+        override fun onClick(p0: View?) {
+            val position = bindingAdapterPosition
+            if (position != RecyclerView.NO_POSITION) {
+                val meal: Meal = meals[position].getMeal()
+//                Toast.makeText(context, meal?.strMeal, Toast.LENGTH_SHORT).show()
+                val intent = Intent(context, RecipeDetailsActivity::class.java)
+                intent.putExtra(
+                    MEAL_EXTRA, meal
+                )
+                context.startActivity(intent)
+            }
         }
     }
 

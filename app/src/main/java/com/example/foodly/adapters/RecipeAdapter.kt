@@ -115,6 +115,7 @@ class RecipeAdapter(private val context: Context, private val meal: List<Meal>) 
                     recipeFavorite.setUser(user)
                     recipeFavorite.setTitle(meal.strMeal)
                     recipeFavorite.setImageUrl(meal.strMealThumb)
+                    recipeFavorite.setMeal(meal)
 
                     recipeFavorite.saveInBackground { exception ->
                         if (exception != null) {
@@ -138,7 +139,6 @@ class RecipeAdapter(private val context: Context, private val meal: List<Meal>) 
             if (position != RecyclerView.NO_POSITION) {
                 val meal: Meal = meal[position]
                 Toast.makeText(context, meal.strMeal, Toast.LENGTH_SHORT).show()
-
                 val intent = Intent(context, RecipeDetailsActivity::class.java)
                 intent.putExtra(
                     MEAL_EXTRA, meal
