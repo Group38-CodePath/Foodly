@@ -56,6 +56,7 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "User Signed up Successfully", Toast.LENGTH_SHORT).show()
             } else {
                 e.printStackTrace()
+                Toast.makeText(this, "Username taken!", Toast.LENGTH_SHORT).show()
             }
         }
     }
