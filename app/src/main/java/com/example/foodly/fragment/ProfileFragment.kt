@@ -48,10 +48,7 @@ class ProfileFragment : Fragment() {
 
 //        Theme Switch feature
         val btnTheme = view.findViewById<MaterialButtonToggleGroup>(R.id.btn_theme)
-        val darkModeBtn = view.findViewById<Button>(R.id.btn_dark_mode)
-//
-//            darkModeBtn.setTextColor(getResources().getColor(R.color.white))
-//
+
         btnTheme.addOnButtonCheckedListener(object : MaterialButtonToggleGroup.OnButtonCheckedListener {
             override fun onButtonChecked(group: MaterialButtonToggleGroup?, checkedId: Int, isChecked: Boolean) {
                 if (isChecked) {
@@ -60,9 +57,7 @@ class ProfileFragment : Fragment() {
                         R.id.btn_dark_mode -> AppCompatDelegate.MODE_NIGHT_YES
                         else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
                     }
-
                     AppCompatDelegate.setDefaultNightMode(theme)
-                    if(theme==AppCompatDelegate.MODE_NIGHT_YES) { darkModeBtn.setTextColor(getResources().getColor(R.color.white))}
 
                 }
             }
