@@ -14,11 +14,13 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.foodly.R
 import com.example.foodly.RecipeDetailsActivity
 import com.example.foodly.RecipeFavorites
+import com.example.foodly.RecipeFavorites.Companion.KEY_USER
 import com.example.foodly.adapters.MEAL_EXTRA
 import com.example.foodly.adapters.TAG
 import com.example.foodly.model.Meal
 import com.parse.ParseObject
 import com.parse.ParseQuery
+import com.parse.ParseUser
 
 class FavoriteRecipeAdapter(val context: Context, val meals:MutableList<RecipeFavorites>): RecyclerView.Adapter<FavoriteRecipeAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

@@ -10,7 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.foodly.R
 import com.example.foodly.RecipeFavorites
+import com.example.foodly.RecipeFavorites.Companion.KEY_USER
 import com.parse.ParseQuery
+import com.parse.ParseUser
 
 
 class FavoriteFragment : Fragment() {
@@ -38,8 +40,8 @@ class FavoriteFragment : Fragment() {
 
 
     fun queryMeals(){
-        val query: ParseQuery<RecipeFavorites> = ParseQuery.getQuery(RecipeFavorites::class.java)
-        query.include(RecipeFavorites.KEY_USER)
+        val query: ParseQuery<RecipeFavorites> = ParseQuery.getQuery(RecipeFavorites::class.java).whereEqualTo(KEY_USER, ParseUser.getCurrentUser())
+        query.include(KEY_USER)
         //query.limit = 20
         query.findInBackground { recipes, e ->
             if (e != null) {

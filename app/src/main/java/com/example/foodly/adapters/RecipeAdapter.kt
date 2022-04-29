@@ -17,6 +17,7 @@ import com.example.foodly.R
 import com.example.foodly.RecipeDetailsActivity
 import com.example.foodly.RecipeFavorites
 import com.example.foodly.RecipeFavorites.Companion.KEY_MEAL_ID
+import com.example.foodly.RecipeFavorites.Companion.KEY_USER
 import com.example.foodly.model.Meal
 import com.parse.*
 
@@ -64,7 +65,8 @@ class RecipeAdapter(private val context: Context, private val meal: List<Meal>) 
                 .into(mealImage)
 
             //Is it in the table
-            val query = ParseQuery.getQuery<RecipeFavorites>("RecipeFavorites")
+            val query = ParseQuery.getQuery<RecipeFavorites>("RecipeFavorites").whereEqualTo(
+                KEY_USER, ParseUser.getCurrentUser())
             query.whereEqualTo(KEY_MEAL_ID, meal.idMeal)
             query.getFirstInBackground { `object`, e ->
                 if (e == null) {
