@@ -122,5 +122,5 @@ Parse Server.
 
 ### App Walkthough GIF
 
-<img src="" width="250" height="285"><br>
+<img src="Foodly.gif" width="180" height="345"><br>
 
