@@ -119,3 +119,8 @@ Profile Page:
 Parse Server.
 - [Create basic snippets for each Parse network request]
 - [base url: https://api.spoonacular.com/recipes]
+
+### App Walkthough GIF
+
+<img src="" width="250" height="285"><br>
+
