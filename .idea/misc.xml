@@ -3,11 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Foodly/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Foodly/app/src/main/res/layout/activity_recipe_details.xml" value="0.3319746376811594" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Foodly/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Foodly/app/src/main/res/layout/recipe_details.xml" value="0.3319746376811594" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Foodly/app/src/main/res/menu/top_app_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/favorit_selector.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/home_selector.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/login_shape.xml" value="0.291" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/profile_selector.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/drawable/ufi_heart_icon.xml" value="0.1365" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.33" />
+        <entry key="..\:/Programming/Kotlin/CodePath Android Development/Group Project CodePath 2022/Foodly/app/src/main/res/menu/menu_top_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/layout/fragment_home.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/layout/recipe_details.xml" value="0.1" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.19375" />
+        <entry key="..\:/Users/Public/app/Foodly/app/src/main/res/menu/menu_top_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/yunis/Downloads/Foodly/app/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -31,22 +31,19 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 - [X] Food recipes
 - [X] Food recipe description
 - [X] User settings
-- [x] Login
-- [x] SignUp
-- [x] SignOut
+- [X] Login
+- [X] SignUp
+- [X] SignOut
 - [X] Persistance
 - [X] Profile screen
-- [x] Home Fragment
-- [x] Favorite Fragment
-- [x] Profile Fragment
 
 **Optional Nice-to-have Stories**
 
-- [ ] ML for food reccomendations
-- [ ] Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
-- [ ] Allow users to post recipes
-- [ ] ML library for text recognition
-- [ ] Push Notifications for daily reminders
+* ML for food reccomendations
+* Allow users to share recipes (different platforms like messaging, instagram, pinterest, and facebook)
+* Allow users to post recipes
+* ML library for text recognition
+* Push Notifications for daily reminders
 
 
 ### 2. Screen Archetypes
@@ -119,8 +116,3 @@ Profile Page:
 Parse Server.
 - [Create basic snippets for each Parse network request]
 - [base url: https://api.spoonacular.com/recipes]
-
-### App Walkthough GIF
-
-<img src="Foodly.gif" width="180" height="345"><br>
-
