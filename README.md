@@ -92,7 +92,7 @@ Get randomized suggestions for lunch/dinner menu based on the user’s preferenc
 
 ### Models
 Data Models:
-API: https://spoonacular.com/food-api/docs
+API: https://www.themealdb.com/api.php
 Primary ID → Recipe ID → Type: Integer
 Recipe Web URL →  Type: String
 Recipe Photo URL → Type: String
@@ -115,7 +115,7 @@ No API Network Call but database
 Profile Page:
 Parse Server.
 - [Create basic snippets for each Parse network request]
-- [base url: https://api.spoonacular.com/recipes]
+- [base url: www.themealdb.com]
 
 
 ### App Walkthough GIF
